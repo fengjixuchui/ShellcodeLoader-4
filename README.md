@@ -1,6 +1,10 @@
 # ShellcodeLoader
 
 Windows通用免杀shellcode加载器。
+## V1.1
+在maker中添加了用于程序自身提权的代码，防止可能会因为程序权限不足而导致内存读写失败问题；
+
+PS：下个版本将会更新杀软模拟沙箱检测功能，库代码干扰混淆功能；
 
 ## 功能特点
 
@@ -48,7 +52,7 @@ C:\>
 
 2. **使用CobaltStrike生成payload.c文件**
 
-   1、点击生成payload
+   1、点击生成payload(也可以在output栏选择生成RAW格式，RAW格式可直接载入LoadMaker)
    ![image1](img/img1.png)
    ![image2](img/img2.png)
 
